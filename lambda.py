@@ -5,8 +5,9 @@ people = [
     {"name" : "Tim", "house" : "Slytherin"}
 ]
 
-#def f(dog):
-#    return dog["name"]
+#def f(person):
+#    return person["name"]
+#people.sort(key=f)
 
 people.sort(key=lambda person:person["name"])
 
